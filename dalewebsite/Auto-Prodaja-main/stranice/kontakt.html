@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <nav class="nav">
+        <h1>Kontakt</h1>
+        <ul class="nav-links">
+          <li><a href="../index.html">Pocetna</a></li>
+          <li><a href="onama.html">O Nama</a></li>
+          <li><a href="auta.html">Auta</a></li>
+          <li><a href="galerija.html">Galerija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h2 class="kontakt-text">Ako ste zainteresovani za nase usluge kontaktirajte nas</h2>
+    <form action="https://submit-form.com/XNe3VjHsE">
+      <p>Ime:</p>
+      <input type="text" name="ime" required />
+
+      <p>Prezime:</p>
+      <input type="text" name="prezime" required />
+
+      <p>Usluga:</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="usluga" value="Kupovina Auta" />
+          <p>Kupovina Auta</p>
+        </label>
+        <label>
+          <input type="radio" name="usluga" value="Servis Auta" />
+          <p>Servis Auta</p>
+        </label>
+      </div>
+
+      <p>E-mail:</p>
+      <input type="email" name="email" required />
+
+      <p>Vaša poruka:</p>
+      <textarea name="poruka" cols="35" rows="5" required></textarea>
+
+      <input type="submit" value="Pošalji poruku" />
+    </form>
+
+    <footer class="footer">&copy; Dalibor Maksimovic.</footer>
+  </body>
+</html>
